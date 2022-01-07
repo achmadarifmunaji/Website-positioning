@@ -1,0 +1,186 @@
+.container {
+  width: 100%;
+}
+.header {
+  background-color: #eeee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 99999;
+}
+
+.header .judul {
+  float: left;
+}
+
+.header .judul a {
+  display: block;
+  padding: 14px 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: red;
+  text-align: center;
+}
+.header .right-nav {
+  float: right;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .right-nav a {
+  display: inline-block;
+  color: black;
+  padding: 19px 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #0000;
+}
+
+.header .judul a:hover {
+  color: white;
+  background-color: green;
+}
+
+.header .right-nav a:hover {
+  background-color: green;
+  color: white;
+}
+
+.wallpaper {
+  background-image: url(img/markus-spiske-MI9-PY5cyNs-unsplash.jpg);
+  margin-top: 70px;
+  height: 500px;
+  background-position: center;
+  border: 10px solid white;
+  position: relative;
+}
+
+.wallpaper p {
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+
+.content {
+  width: 100%;
+  margin: 10px;
+  text-align: justify;
+}
+
+.content .con-1 h2 {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.content .con-1 {
+  width: 48%;
+  float: left;
+  margin-left: 25px;
+}
+.content .con-2 {
+  width: 45%;
+  float: right;
+  margin-right: 30px;
+}
+
+.content .con-1,
+.content .con-2 {
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.content .con-1 p,
+.content .con-2 p {
+  padding: 5px;
+  text-indent: 20px;
+}
+
+.contact {
+  width: 800px;
+  margin: 25px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgba(168, 165, 165, 0.6);
+}
+
+.contact h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact .row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact .row .form-label {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.contact .row .form-in {
+  float: left;
+  width: 75%;
+}
+
+.contact .row .form-in input {
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 20px;
+  padding: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-in textarea {
+  width: 80%;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact button {
+  padding: 5px;
+  margin-left: 21%;
+  background-color: #4caf50;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.contact button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.footer {
+  background-color: gray;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  width: 100%;
+}
